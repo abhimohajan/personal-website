@@ -8,6 +8,7 @@ section{
     padding: 50px;
     overflow: hidden;
 }
+/* Header area css*/
 .header-area{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
@@ -57,12 +58,14 @@ p{
 a.link-button:hover{
     color: #000;
 }
+/* Biography Area Css*/
 .biography-area{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
+/* Latest Work area Css*/
 .latest-work-area{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
@@ -80,14 +83,18 @@ a.link-button:hover{
 .work-area img {
     width: 28%;
     margin-left: 4%;
+    transition: .3s;
+    float: left;
 }
-
+.work-img:hover img {
+    box-shadow: 10px 20px 40px lightgreen;
+}
+/* Client Area Css*/
 .client-area{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-        
+    background-size: cover;      
 }
 .title {
     text-align: center;
@@ -107,7 +114,7 @@ a.link-button:hover{
 .title p {
     font-size: 16px;
     color: #000;
-    padding-top: 30px;
+    padding-top: 10px;
 
 }
 .contact {
@@ -123,11 +130,14 @@ a.link-button:hover{
 .contact h2 {
     margin: 0;
     padding-bottom: 10px;
+    text-transform: lowercase;
+    font-size: 20px;
 }
 
 .contact p {
     color: #fff;
 }
+/* Footer area CSS*/
 footer p{
     text-align: center;
 }
